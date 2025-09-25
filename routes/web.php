@@ -40,7 +40,9 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('frontend.about');
 });
-
+Route::get('/contact', function () {
+    return view('frontend.contact');
+})->name('contact');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
