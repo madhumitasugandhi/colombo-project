@@ -1,143 +1,99 @@
 @extends('frontend.layout.app')
 @section('main-container')
 
- <main class="main">
+{{-- Unique class to body --}}
+@push('body-class', 'about-page')
 
-    <!-- Page Title -->
-    <div class="page-title light-background">
-      <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Privacy</h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Privacy</li>
-          </ol>
-        </nav>
-      </div>
-    </div><!-- End Page Title -->
+<main class="main">
 
-    <!-- Privacy Section -->
-    <section id="privacy" class="privacy section">
+  <!-- Page Title -->
+  <div class="page-title light-background">
+    <div class="container d-lg-flex justify-content-between align-items-center">
+      <h1 class="mb-2 mb-lg-0">About Us</h1>
+      <nav class="breadcrumbs">
+        <ol>
+          <li><a href="{{ url('/') }}">Home</a></li>
+          <li class="current">About</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
 
-      <div class="container" data-aos="fade-up">
-        <!-- Header -->
-        <div class="privacy-header" data-aos="fade-up">
-          <div class="header-content">
-            <div class="last-updated">Effective Date: February 27, 2025</div>
-            <h1>Privacy Policy</h1>
-            <p class="intro-text">This Privacy Policy describes how we collect, use, process, and disclose your information, including personal information, in conjunction with your access to and use of our services.</p>
-          </div>
+  <!-- About Section -->
+  <section id="about" class="about section">
+    <div class="container about-container" data-aos="fade-up">
+
+      <!-- Hero -->
+      <div class="about-hero row align-items-center gy-4">
+        <div class="col-md-6">
+          <h2 class="display-5">We Craft Digital Stories That Connect</h2>
+          <p class="lead mt-3">We believe every brand has a story. We turn that story into immersive digital experiences — websites, mobile apps, branding — everything in between.</p>
+          <a href="{{ route('contact') ?? url('/contact') }}" class="btn btn-primary mt-3">Work With Us</a>
         </div>
-
-        <!-- Main Content -->
-        <div class="privacy-content" data-aos="fade-up">
-          <!-- Introduction -->
-          <div class="content-section">
-            <h2>1. Introduction</h2>
-            <p>When you use our services, you're trusting us with your information. We understand this is a big responsibility and work hard to protect your information and put you in control.</p>
-            <p>This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information.</p>
-          </div>
-
-          <!-- Information Collection -->
-          <div class="content-section">
-            <h2>2. Information We Collect</h2>
-            <p>We collect information to provide better services to our users. The types of information we collect include:</p>
-
-            <h3>2.1 Information You Provide</h3>
-            <p>When you create an account or use our services, you provide us with personal information that includes:</p>
-            <ul>
-              <li>Your name and contact information</li>
-              <li>Account credentials</li>
-              <li>Payment information when required</li>
-              <li>Communication preferences</li>
-            </ul>
-
-            <h3>2.2 Automatic Information</h3>
-            <p>We automatically collect and store certain information when you use our services:</p>
-            <ul>
-              <li>Device information and identifiers</li>
-              <li>Log information and usage statistics</li>
-              <li>Location information when enabled</li>
-              <li>Browser type and settings</li>
-            </ul>
-          </div>
-
-          <!-- Use of Information -->
-          <div class="content-section">
-            <h2>3. How We Use Your Information</h2>
-            <p>We use the information we collect to provide, maintain, and improve our services. Specifically, we use your information to:</p>
-            <ul>
-              <li>Provide and personalize our services</li>
-              <li>Process transactions and send related information</li>
-              <li>Send notifications and updates about our services</li>
-              <li>Maintain security and verify identity</li>
-              <li>Analyze and improve our services</li>
-            </ul>
-          </div>
-
-          <!-- Information Sharing -->
-          <div class="content-section">
-            <h2>4. Information Sharing and Disclosure</h2>
-            <p>We do not share personal information with companies, organizations, or individuals outside of our company except in the following cases:</p>
-
-            <h3>4.1 With Your Consent</h3>
-            <p>We will share personal information with companies, organizations, or individuals outside of our company when we have your consent to do so.</p>
-
-            <h3>4.2 For Legal Reasons</h3>
-            <p>We will share personal information if we have a good-faith belief that access, use, preservation, or disclosure of the information is reasonably necessary to:</p>
-            <ul>
-              <li>Meet any applicable law, regulation, legal process, or enforceable governmental request</li>
-              <li>Enforce applicable Terms of Service</li>
-              <li>Detect, prevent, or otherwise address fraud, security, or technical issues</li>
-              <li>Protect against harm to the rights, property, or safety of our users</li>
-            </ul>
-          </div>
-
-          <!-- Data Security -->
-          <div class="content-section">
-            <h2>5. Data Security</h2>
-            <p>We work hard to protect our users from unauthorized access to or unauthorized alteration, disclosure, or destruction of information we hold. In particular:</p>
-            <ul>
-              <li>We encrypt our services using SSL</li>
-              <li>We review our information collection, storage, and processing practices</li>
-              <li>We restrict access to personal information to employees who need that information</li>
-            </ul>
-          </div>
-
-          <!-- Your Rights -->
-          <div class="content-section">
-            <h2>6. Your Rights and Choices</h2>
-            <p>You have certain rights regarding your personal information, including:</p>
-            <ul>
-              <li>The right to access your personal information</li>
-              <li>The right to correct inaccurate information</li>
-              <li>The right to request deletion of your information</li>
-              <li>The right to restrict or object to our processing of your information</li>
-            </ul>
-          </div>
-
-          <!-- Policy Updates -->
-          <div class="content-section">
-            <h2>7. Changes to This Policy</h2>
-            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the effective date at the top.</p>
-            <p>Your continued use of our services after any changes to this Privacy Policy constitutes your acceptance of such changes.</p>
-          </div>
+        <div class="col-md-6">
+          <img src="{{ asset('images/about-hero-2.jpg') }}" alt="About Us" class="img-fluid rounded shadow" />
         </div>
-
-        <!-- Contact Section -->
-        <div class="privacy-contact" data-aos="fade-up">
-          <h2>Contact Us</h2>
-          <p>If you have any questions about this Privacy Policy or our practices, please contact us:</p>
-          <div class="contact-details">
-            <p><strong>Email:</strong> privacy@example.com</p>
-            <p><strong>Address:</strong> 123 Privacy Street, Security City, 12345</p>
-          </div>
-        </div>
-
       </div>
 
-    </section><!-- /Privacy Section -->
+      <!-- Example section -->
+      <div class="content-section mt-5">
+        <h3>Our Mission</h3>
+        <p>Our mission is to empower businesses with digital products built on empathy, performance and clarity.</p>
+      </div>
 
-  </main>
+    </div>
+  </section>
+</main>
+
+{{-- Internal CSS --}}
+<style>
+  /* Unique about page body class */
+  body.about-page {
+    background: #fdfdfd;
+    color: #222;
+  }
+
+  /* Parent container margin top */
+  .about-container {
+    margin-top: 50px;
+  }
+
+  /* Hero section */
+  .about-hero h2 {
+    font-weight: 700;
+    color: #222;
+  }
+
+  .about-hero p.lead {
+    font-size: 1.1rem;
+    color: #555;
+  }
+
+  .about-hero img {
+    border-radius: 20px;
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.1);
+    transition: transform .3s ease;
+  }
+  .about-hero img:hover {
+    transform: scale(1.03);
+  }
+
+  /* Section heading */
+  .content-section h3 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  .content-section h3::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: #ff7b00;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    border-radius: 2px;
+  }
+</style>
 
 @endsection
