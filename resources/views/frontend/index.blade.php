@@ -6,69 +6,69 @@
 
   <section id="hero" class="hero section light-background">
 
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-    <div class="hero-content">
-      <div class="row align-items-center">
+      <div class="hero-content">
+        <div class="row align-items-center">
 
-        <!-- Left Content -->
-        <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
-          <div class="content">
-            <h1 class="hero-title mb-4">Refreshing Goodness, Every Sip</h1>
-            <p class="hero-subtitle mb-4">
-              At <strong>Colombo Product Pvt Ltd</strong>, we craft fruit juices and beverages made from the finest ingredients. 
-              Our mission is simple — bring natural freshness and healthy hydration to your everyday life.
-            </p>
+          <!-- Left Content -->
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="content">
+              <h1 class="hero-title mb-4">Refreshing Goodness, Every Sip</h1>
+              <p class="hero-subtitle mb-4">
+                At <strong>Colombo Product Pvt Ltd</strong>, we craft fruit juices and beverages made from the finest
+                ingredients.
+                Our mission is simple — bring natural freshness and healthy hydration to your everyday life.
+              </p>
 
-            <div class="hero-actions d-flex flex-wrap gap-3 mb-4">
-              <a href="#products" class="btn btn-primary">Explore Products</a>
-              <a href="#about" class="btn btn-outline">About Us</a>
-            </div>
-
-            <div class="hero-info d-flex flex-wrap align-items-center gap-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-droplet-half me-2 text-primary"></i>
-                <div>
-                  <small class="text-muted">Specialty</small>
-                  <div class="fw-medium">Juices & Beverages</div>
-                </div>
+              <div class="hero-actions d-flex flex-wrap gap-3 mb-4">
+                <a href="#products" class="btn btn-primary">Explore Products</a>
+                <a href="#about" class="btn btn-outline">About Us</a>
               </div>
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-geo-alt me-2 text-primary"></i>
-                <div>
-                  <small class="text-muted">Based in</small>
-                  <div class="fw-medium">Colombo, Sri Lanka</div>
+
+              <div class="hero-info d-flex flex-wrap align-items-center gap-4">
+                <div class="info-item d-flex align-items-center">
+                  <i class="bi bi-droplet-half me-2" style="color: #eb5f2d"></i>
+                  <div>
+                    <small class="text-muted">Specialty</small>
+                    <div class="fw-medium">Juices & Beverages</div>
+                  </div>
+                </div>
+                <div class="info-item d-flex align-items-center">
+                  <i class="bi bi-geo-alt me-2" style="color: #eb5f2d"></i>
+                  <div>
+                    <small class="text-muted">Based in</small>
+                    <div class="fw-medium">Colombo, Sri Lanka</div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <!-- Right Product Images -->
-        <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
-          <div class="hero-images">
-            <div class="main-image">
-              <img src="assets/img/products/juice-main.jpg" alt="Colombo Juice Bottle" class="img-fluid rounded shadow">
-            </div>
-            <div class="floating-images">
-              <div class="floating-image floating-image-1">
-                <img src="assets/img/products/juice-1.jpg" alt="Mango Juice" class="img-fluid rounded shadow">
+          <!-- Right Product Images -->
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="hero-images">
+              <div class="main-image">
+                <img src="assets/img/products/juice-main.jpg" alt="Colombo Juice Bottle"
+                  class="img-fluid rounded shadow">
               </div>
-              <div class="floating-image floating-image-2">
-                <img src="assets/img/products/juice-2.jpg" alt="Orange Juice" class="img-fluid rounded shadow">
+              <div class="floating-images">
+                <div class="floating-image floating-image-1">
+                  <img src="assets/img/products/juice-1.jpg" alt="Mango Juice" class="img-fluid rounded shadow">
+                </div>
+                <div class="floating-image floating-image-2">
+                  <img src="assets/img/products/juice-2.jpg" alt="Orange Juice" class="img-fluid rounded shadow">
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
+        </div>
       </div>
+
     </div>
 
-  </div>
-
-</section><!-- /Hero Section -->
-
-
+  </section><!-- /Hero Section -->
 
   <!-- About Section -->
   <section id="about" class="about section">
@@ -76,111 +76,116 @@
     <div class="container" data-aos="fade-up" data-aos-delay="100">
 
       <div class="row align-items-center">
+        <!-- Left Image -->
         <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
           <div class="about-image">
-            <img src="assets/img/restaurant/chef-3.webp" alt="Executive Chef" class="img-fluid rounded">
+            <img src="assets/img/products/juice-main.jpg" alt="Colombo Product Bottles" class="img-fluid rounded">
             <div class="experience-badge">
-              <span class="years">25+</span>
-              <span class="text">Years of Culinary Excellence</span>
+              <span class="years">15+</span>
+              <span class="text">Years of Beverage Excellence</span>
             </div>
           </div>
         </div>
 
+        <!-- Right Content -->
         <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
           <div class="about-content">
             <div class="section-header">
-              <h2>Meet Our Executive Chef</h2>
-              <p class="subtitle">Crafting memorable dining experiences since 1999</p>
+              <h2>About Colombo Product Pvt Ltd</h2>
+              <p class="subtitle">Delivering Fresh & Natural Beverages Since 2008</p>
             </div>
 
             <div class="story-text">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.</p>
+              <p>At Colombo Product Pvt Ltd, we are passionate about crafting high-quality juices and beverages that
+                bring natural flavor and freshness to every sip. Our products are made from carefully selected fruits
+                and ingredients to ensure taste and nutrition.</p>
 
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum.</p>
+              <p>We believe in innovation, sustainability, and connecting with our customers through delicious, healthy
+                drinks. Our mission is to be a trusted brand for families, restaurants, and retailers across Sri Lanka.
+              </p>
             </div>
-
             <div class="chef-highlights">
               <div class="row">
                 <div class="col-6">
                   <div class="highlight-item">
                     <i class="bi bi-award"></i>
-                    <span>James Beard Award</span>
+                   <span>Quality Certified</span>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="highlight-item">
                     <i class="bi bi-star"></i>
-                    <span>Michelin Recognition</span>
+                    <span>Trusted Brand</span>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="chef-quote">
+            <div class="chef-quote mt-4">
               <blockquote>
                 "Cooking is not just about feeding people; it's about creating moments that bring families and friends
                 together around the table."
               </blockquote>
-              <cite>- Chef Alessandro Romano</cite>
+              <cite>- Colombo Product Pvt Ltd Team</cite>
             </div>
 
-            <div class="cta-buttons">
-              <a href="#menu" class="btn btn-primary">View Menu</a>
-              <a href="#book-a-table" class="btn btn-outline">Book a Table</a>
+            <div class="cta-buttons mt-4">
+              <a href="#products" class="btn btn-primary">Explore Products</a>
+              <a href="#contact" class="btn btn-outline">Contact Us</a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="restaurant-gallery" data-aos="fade-up" data-aos-delay="400">
+      <!-- Product Gallery -->
+      <div class="product-gallery mt-5" data-aos="fade-up" data-aos-delay="400">
         <div class="row g-4">
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item">
-              <img src="assets/img/restaurant/showcase-2.webp" alt="Restaurant Interior" class="img-fluid rounded">
+              <img src="assets/img/products/juice-1.jpg" alt="Mango Juice" class="img-fluid rounded">
               <div class="gallery-caption">
-                <h4>Elegant Dining</h4>
-                <p>Sophisticated ambiance for every occasion</p>
+                <h4>Mango Juice</h4>
+                <p>Freshly pressed mango goodness</p>
               </div>
             </div>
-          </div><!-- End Gallery Item -->
+          </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item">
-              <img src="assets/img/restaurant/main-4.webp" alt="Signature Dish" class="img-fluid rounded">
+              <img src="assets/img/products/juice-3.jpg" alt="Mixed Fruit Juice" class="img-fluid rounded">
               <div class="gallery-caption">
-                <h4>Signature Dishes</h4>
-                <p>Artfully crafted seasonal specialties</p>
+                <h4>Mixed Fruit Juice</h4>
+                <p>A blend of tropical fruits</p>
               </div>
             </div>
-          </div><!-- End Gallery Item -->
+          </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item">
-              <img src="assets/img/restaurant/misc-7.webp" alt="Wine Selection" class="img-fluid rounded">
+              <img src="assets/img/products/juice-2.jpg" alt="Orange Juice" class="img-fluid rounded">
               <div class="gallery-caption">
-                <h4>Curated Wine</h4>
-                <p>Exceptional pairings from around the world</p>
+                <h4>Orange Juice</h4>
+                <p>Vitamin C packed refreshment</p>
               </div>
             </div>
-          </div><!-- End Gallery Item -->
+          </div>
+
+
         </div>
       </div>
 
     </div>
 
-  </section><!-- /About Section -->
+  </section><!-- End About Section -->
 
-  <!-- Menu Section -->
+
+  <!-- Products Section -->
   <section id="menu" class="menu section">
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-      <h2>Menu</h2>
-      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <h2>Our Beverages</h2>
+      <p>Refreshing, natural, and made from the finest fruits</p>
     </div><!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -190,27 +195,27 @@
           <div class="menu-filters">
             <ul class="nav nav-pills justify-content-center" id="menuTabs" role="tablist">
               <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="menu-starters-tab" data-bs-toggle="pill"
-                  data-bs-target="#menu-starters" type="button" role="tab">
-                  <i class="bi bi-egg-fried me-2"></i>Starters
+                <button class="nav-link active" id="menu-juices-tab" data-bs-toggle="pill" data-bs-target="#menu-juices"
+                  type="button" role="tab">
+                  <i class="bi bi-droplet-half me-2"></i>Juices
                 </button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="menu-mains-tab" data-bs-toggle="pill" data-bs-target="#menu-mains"
+                <button class="nav-link" id="menu-smoothies-tab" data-bs-toggle="pill" data-bs-target="#menu-smoothies"
                   type="button" role="tab">
-                  <i class="bi bi-cup-hot me-2"></i>Main Courses
+                  <i class="bi bi-cup-straw me-2"></i>Smoothies
                 </button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="menu-desserts-tab" data-bs-toggle="pill" data-bs-target="#menu-desserts"
+                <button class="nav-link" id="menu-premium-tab" data-bs-toggle="pill" data-bs-target="#menu-premium"
                   type="button" role="tab">
-                  <i class="bi bi-cake2 me-2"></i>Desserts
+                  <i class="bi bi-star-fill me-2"></i>Premium Drinks
                 </button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="menu-drinks-tab" data-bs-toggle="pill" data-bs-target="#menu-drinks"
+                <button class="nav-link" id="menu-seasonal-tab" data-bs-toggle="pill" data-bs-target="#menu-seasonal"
                   type="button" role="tab">
-                  <i class="bi bi-cup me-2"></i>Beverages
+                  <i class="bi bi-calendar me-2"></i>Seasonal Specials
                 </button>
               </li>
             </ul>
@@ -219,26 +224,23 @@
       </div>
 
       <div class="tab-content" id="menuTabContent">
-        <!-- Starters Tab -->
-        <div class="tab-pane fade show active" id="menu-starters" role="tabpanel">
+        <!-- Juices Tab -->
+        <div class="tab-pane fade show active" id="menu-juices" role="tabpanel">
           <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
             <div class="col-lg-6">
               <div class="menu-item">
                 <div class="menu-item-image">
-                  <img src="assets/img/restaurant/starter-6.webp" class="img-fluid" alt="Starter">
-                  <div class="special-badge">Chef's Pick</div>
+                  <img src="assets/img/products/juice-1.jpg" class="img-fluid" alt="Mango Juice">
+                  <div class="special-badge">Bestseller</div>
                 </div>
                 <div class="menu-item-content">
                   <div class="menu-item-header">
-                    <h4>Crispy Calamari Rings</h4>
-                    <div class="dietary-tags">
-                      <span class="tag spicy"><i class="bi bi-fire"></i></span>
-                    </div>
+                    <h4>Mango Delight</h4>
                   </div>
-                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore
-                  </p>
+                  <p>Pure mango juice, no added sugar, refreshing and naturally sweet</p>
                   <div class="menu-item-footer">
-                    <span class="price">$18</span>
+                    <span class="price">From $3.50</span>
                   </div>
                 </div>
               </div>
@@ -247,18 +249,15 @@
             <div class="col-lg-6">
               <div class="menu-item">
                 <div class="menu-item-image">
-                  <img src="assets/img/restaurant/starter-3.webp" class="img-fluid" alt="Starter">
+                  <img src="assets/img/products/juice-2.jpg" class="img-fluid" alt="Orange Juice">
                 </div>
                 <div class="menu-item-content">
                   <div class="menu-item-header">
-                    <h4>Truffle Arancini</h4>
-                    <div class="dietary-tags">
-                      <span class="tag vegetarian"><i class="bi bi-leaf"></i></span>
-                    </div>
+                    <h4>Sunny Orange</h4>
                   </div>
-                  <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                  <p>Rich in Vitamin C, freshly squeezed orange juice for a healthy boost</p>
                   <div class="menu-item-footer">
-                    <span class="price">$16</span>
+                    <span class="price">From $3.00</span>
                   </div>
                 </div>
               </div>
@@ -267,18 +266,16 @@
             <div class="col-lg-6">
               <div class="menu-item">
                 <div class="menu-item-image">
-                  <img src="assets/img/restaurant/starter-5.webp" class="img-fluid" alt="Starter">
+                  <img src="assets/img/products/juice-3.jpg" class="img-fluid" alt="Tropical Mix Juice">
+                  <div class="special-badge">New</div>
                 </div>
                 <div class="menu-item-content">
                   <div class="menu-item-header">
-                    <h4>Salmon Ceviche</h4>
-                    <div class="dietary-tags">
-                      <span class="tag gluten-free"><i class="bi bi-check-circle"></i></span>
-                    </div>
+                    <h4>Tropical Mix</h4>
                   </div>
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+                  <p>A blend of tropical fruits for a refreshing taste</p>
                   <div class="menu-item-footer">
-                    <span class="price">$22</span>
+                    <span class="price">From $3.75</span>
                   </div>
                 </div>
               </div>
@@ -287,45 +284,41 @@
             <div class="col-lg-6">
               <div class="menu-item">
                 <div class="menu-item-image">
-                  <img src="assets/img/restaurant/starter-7.webp" class="img-fluid" alt="Starter">
+                  <img src="assets/img/products/juice-4.jpg" class="img-fluid" alt="Green Detox Juice">
                 </div>
                 <div class="menu-item-content">
                   <div class="menu-item-header">
-                    <h4>Beef Tartare</h4>
-                    <div class="dietary-tags">
-                      <span class="tag premium"><i class="bi bi-star-fill"></i></span>
-                    </div>
+                    <h4>Green Detox</h4>
                   </div>
-                  <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim</p>
+                  <p>Spinach, kale & apple juice, rich in antioxidants and vitamins</p>
                   <div class="menu-item-footer">
-                    <span class="price">$28</span>
+                    <span class="price">From $4.00</span>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
 
-        <!-- Main Courses Tab -->
-        <div class="tab-pane fade" id="menu-mains" role="tabpanel">
+
+        <!-- Smoothies Tab -->
+        <div class="tab-pane fade" id="menu-smoothies" role="tabpanel">
           <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
             <div class="col-lg-6">
               <div class="menu-item">
                 <div class="menu-item-image">
-                  <img src="assets/img/restaurant/main-2.webp" class="img-fluid" alt="Main Course">
-                  <div class="special-badge">Signature</div>
+                  <img src="assets/img/products/smoothie-1.jpg" class="img-fluid" alt="Berry Smoothie">
+                  <div class="special-badge">House Favorite</div>
                 </div>
                 <div class="menu-item-content">
                   <div class="menu-item-header">
-                    <h4>Grilled Ribeye Steak</h4>
-                    <div class="dietary-tags">
-                      <span class="tag premium"><i class="bi bi-star-fill"></i></span>
-                    </div>
+                    <h4>Berry Blast</h4>
                   </div>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
-                  </p>
+                  <p>Mixed berries with yogurt for a creamy, antioxidant-rich smoothie</p>
                   <div class="menu-item-footer">
-                    <span class="price">$45</span>
+                    <span class="price">From $4.50</span>
                   </div>
                 </div>
               </div>
@@ -334,18 +327,15 @@
             <div class="col-lg-6">
               <div class="menu-item">
                 <div class="menu-item-image">
-                  <img src="assets/img/restaurant/main-4.webp" class="img-fluid" alt="Main Course">
+                  <img src="assets/img/products/smoothie-2.jpg" class="img-fluid" alt="Tropical Smoothie">
                 </div>
                 <div class="menu-item-content">
                   <div class="menu-item-header">
-                    <h4>Pan-Seared Salmon</h4>
-                    <div class="dietary-tags">
-                      <span class="tag gluten-free"><i class="bi bi-check-circle"></i></span>
-                    </div>
+                    <h4>Tropical Paradise</h4>
                   </div>
-                  <p>Totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae</p>
+                  <p>Mango, pineapple & banana blended into a smooth tropical drink</p>
                   <div class="menu-item-footer">
-                    <span class="price">$38</span>
+                    <span class="price">From $4.00</span>
                   </div>
                 </div>
               </div>
@@ -354,19 +344,16 @@
             <div class="col-lg-6">
               <div class="menu-item">
                 <div class="menu-item-image">
-                  <img src="assets/img/restaurant/main-6.webp" class="img-fluid" alt="Main Course">
+                  <img src="assets/img/products/smoothie-3.jpg" class="img-fluid" alt="Green Detox Smoothie">
+                  <div class="special-badge">New</div>
                 </div>
                 <div class="menu-item-content">
                   <div class="menu-item-header">
-                    <h4>Lobster Ravioli</h4>
-                    <div class="dietary-tags">
-                      <span class="tag premium"><i class="bi bi-star-fill"></i></span>
-                    </div>
+                    <h4>Green Detox</h4>
                   </div>
-                  <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur
-                  </p>
+                  <p>Spinach, kale & apple blended for a healthy green smoothie</p>
                   <div class="menu-item-footer">
-                    <span class="price">$42</span>
+                    <span class="price">From $4.75</span>
                   </div>
                 </div>
               </div>
@@ -375,44 +362,41 @@
             <div class="col-lg-6">
               <div class="menu-item">
                 <div class="menu-item-image">
-                  <img src="assets/img/restaurant/main-8.webp" class="img-fluid" alt="Main Course">
+                  <img src="assets/img/products/smoothie-4.jpg" class="img-fluid" alt="Chocolate Banana Smoothie">
                 </div>
                 <div class="menu-item-content">
                   <div class="menu-item-header">
-                    <h4>Mushroom Risotto</h4>
-                    <div class="dietary-tags">
-                      <span class="tag vegetarian"><i class="bi bi-leaf"></i></span>
-                    </div>
+                    <h4>Choco Banana</h4>
                   </div>
-                  <p>Magni dolores eos qui ratione voluptatem sequi nesciunt neque porro quisquam est qui dolorem</p>
+                  <p>Rich chocolate with ripe bananas for a creamy indulgent treat</p>
                   <div class="menu-item-footer">
-                    <span class="price">$32</span>
+                    <span class="price">From $5.00</span>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
 
-        <!-- Desserts Tab -->
-        <div class="tab-pane fade" id="menu-desserts" role="tabpanel">
+
+        <!-- Premium Drinks Tab -->
+        <div class="tab-pane fade" id="menu-premium" role="tabpanel">
           <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
             <div class="col-lg-6">
               <div class="menu-item">
                 <div class="menu-item-image">
-                  <img src="assets/img/restaurant/dessert-2.webp" class="img-fluid" alt="Dessert">
-                  <div class="special-badge">Popular</div>
+                  <img src="assets/img/products/premium-1.png" class="img-fluid" alt="Premium Beverage">
+                  <div class="special-badge">Premium</div>
                 </div>
                 <div class="menu-item-content">
                   <div class="menu-item-header">
-                    <h4>Chocolate Lava Cake</h4>
-                    <div class="dietary-tags">
-                      <span class="tag vegetarian"><i class="bi bi-leaf"></i></span>
-                    </div>
+                    <h4>Gold Label Juice</h4>
                   </div>
-                  <p>Ipsum quia dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt</p>
+                  <p>Exquisite blend of exotic fruits, limited edition premium beverage</p>
                   <div class="menu-item-footer">
-                    <span class="price">$14</span>
+                    <span class="price">From $6.50</span>
                   </div>
                 </div>
               </div>
@@ -421,18 +405,16 @@
             <div class="col-lg-6">
               <div class="menu-item">
                 <div class="menu-item-image">
-                  <img src="assets/img/restaurant/dessert-5.webp" class="img-fluid" alt="Dessert">
+                  <img src="assets/img/products/premium-2.jpg" class="img-fluid" alt="Royal Berry Blend">
+                  <div class="special-badge">Premium</div>
                 </div>
                 <div class="menu-item-content">
                   <div class="menu-item-header">
-                    <h4>Crème Brûlée</h4>
-                    <div class="dietary-tags">
-                      <span class="tag gluten-free"><i class="bi bi-check-circle"></i></span>
-                    </div>
+                    <h4>Royal Berry Blend</h4>
                   </div>
-                  <p>Ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco</p>
+                  <p>Mixed wild berries with a hint of honey for a rich, smooth taste</p>
                   <div class="menu-item-footer">
-                    <span class="price">$12</span>
+                    <span class="price">From $6.00</span>
                   </div>
                 </div>
               </div>
@@ -441,18 +423,16 @@
             <div class="col-lg-6">
               <div class="menu-item">
                 <div class="menu-item-image">
-                  <img src="assets/img/restaurant/dessert-7.webp" class="img-fluid" alt="Dessert">
+                  <img src="assets/img/products/premium-3.jpg" class="img-fluid" alt="Tropical Gold">
+                  <div class="special-badge">Premium</div>
                 </div>
                 <div class="menu-item-content">
                   <div class="menu-item-header">
-                    <h4>Tiramisu</h4>
-                    <div class="dietary-tags">
-                      <span class="tag vegetarian"><i class="bi bi-leaf"></i></span>
-                    </div>
+                    <h4>Tropical Gold</h4>
                   </div>
-                  <p>Laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit</p>
+                  <p>A luxurious mix of mango, pineapple & passion fruit for a tropical experience</p>
                   <div class="menu-item-footer">
-                    <span class="price">$13</span>
+                    <span class="price">From $6.75</span>
                   </div>
                 </div>
               </div>
@@ -461,44 +441,41 @@
             <div class="col-lg-6">
               <div class="menu-item">
                 <div class="menu-item-image">
-                  <img src="assets/img/restaurant/dessert-9.webp" class="img-fluid" alt="Dessert">
+                  <img src="assets/img/products/premium-4.jpg" class="img-fluid" alt="Velvet Citrus">
+                  <div class="special-badge">Premium</div>
                 </div>
                 <div class="menu-item-content">
                   <div class="menu-item-header">
-                    <h4>Seasonal Fruit Tart</h4>
-                    <div class="dietary-tags">
-                      <span class="tag vegan"><i class="bi bi-flower1"></i></span>
-                    </div>
+                    <h4>Velvet Citrus</h4>
                   </div>
-                  <p>In voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat</p>
+                  <p>Orange, lemon & a touch of vanilla for a velvety, refreshing drink</p>
                   <div class="menu-item-footer">
-                    <span class="price">$11</span>
+                    <span class="price">From $6.25</span>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
 
-        <!-- Beverages Tab -->
-        <div class="tab-pane fade" id="menu-drinks" role="tabpanel">
+        <!-- Seasonal Specials Tab -->
+        <div class="tab-pane fade" id="menu-seasonal" role="tabpanel">
           <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
             <div class="col-lg-6">
               <div class="menu-item">
                 <div class="menu-item-image">
-                  <img src="assets/img/restaurant/drink-3.webp" class="img-fluid" alt="Beverage">
-                  <div class="special-badge">House Special</div>
+                  <img src="assets/img/products/seasonal-1.jpg" class="img-fluid" alt="King Coconut Juice">
+                  <div class="special-badge">Limited Edition</div>
                 </div>
                 <div class="menu-item-content">
                   <div class="menu-item-header">
-                    <h4>Signature Cocktail</h4>
-                    <div class="dietary-tags">
-                      <span class="tag spicy"><i class="bi bi-fire"></i></span>
-                    </div>
+                    <h4>King Coconut Juice</h4>
                   </div>
-                  <p>Cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                  <p>Freshly cracked King coconut, naturally hydrating and sweet</p>
                   <div class="menu-item-footer">
-                    <span class="price">$16</span>
+                    <span class="price">From $3.50</span>
                   </div>
                 </div>
               </div>
@@ -507,18 +484,16 @@
             <div class="col-lg-6">
               <div class="menu-item">
                 <div class="menu-item-image">
-                  <img src="assets/img/restaurant/drink-6.webp" class="img-fluid" alt="Beverage">
+                  <img src="assets/img/products/seasonal-2.jpg" class="img-fluid" alt="Ceylon Iced Tea">
+                  <div class="special-badge">New Arrival</div>
                 </div>
                 <div class="menu-item-content">
                   <div class="menu-item-header">
-                    <h4>Fresh Fruit Smoothie</h4>
-                    <div class="dietary-tags">
-                      <span class="tag vegan"><i class="bi bi-flower1"></i></span>
-                    </div>
+                    <h4>Ceylon Iced Tea</h4>
                   </div>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                  <p>Chilled Ceylon black tea with a hint of lemon and mint</p>
                   <div class="menu-item-footer">
-                    <span class="price">$8</span>
+                    <span class="price">From $4.50</span>
                   </div>
                 </div>
               </div>
@@ -527,18 +502,16 @@
             <div class="col-lg-6">
               <div class="menu-item">
                 <div class="menu-item-image">
-                  <img src="assets/img/restaurant/drink-8.webp" class="img-fluid" alt="Beverage">
+                  <img src="assets/img/products/seasonal-3.jpg" class="img-fluid" alt="Sri Lankan Faluda">
+                  <div class="special-badge">Seasonal Favorite</div>
                 </div>
                 <div class="menu-item-content">
                   <div class="menu-item-header">
-                    <h4>Premium Wine Selection</h4>
-                    <div class="dietary-tags">
-                      <span class="tag premium"><i class="bi bi-star-fill"></i></span>
-                    </div>
+                    <h4>Sri Lankan Faluda</h4>
                   </div>
-                  <p>Laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi</p>
+                  <p>Rose syrup, vermicelli, basil seeds, and milk for a creamy treat</p>
                   <div class="menu-item-footer">
-                    <span class="price">$35</span>
+                    <span class="price">From $5.00</span>
                   </div>
                 </div>
               </div>
@@ -547,280 +520,202 @@
             <div class="col-lg-6">
               <div class="menu-item">
                 <div class="menu-item-image">
-                  <img src="assets/img/restaurant/drink-10.webp" class="img-fluid" alt="Beverage">
+                  <img src="assets/img/products/seasonal-4.jpg" class="img-fluid" alt="Wattalapam Smoothie">
+                  <div class="special-badge">Exotic Choice</div>
                 </div>
                 <div class="menu-item-content">
                   <div class="menu-item-header">
-                    <h4>Artisan Coffee</h4>
-                    <div class="dietary-tags">
-                      <span class="tag vegan"><i class="bi bi-flower1"></i></span>
-                    </div>
+                    <h4>Wattalapam Smoothie</h4>
                   </div>
-                  <p>Architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas</p>
+                  <p>Classic Sri Lankan coconut custard blended into a creamy smoothie</p>
                   <div class="menu-item-footer">
-                    <span class="price">$6</span>
+                    <span class="price">From $5.50</span>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
+
       </div>
 
       <div class="row mt-5">
         <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="300">
-          <a href="#" class="btn btn-download">
-            <i class="bi bi-download me-2"></i>Download Full Menu (PDF)
+          <a href="/products" class="btn btn-download">
+            <i class="bi bi-grid-1x2 me-2"></i>Explore All Products
           </a>
         </div>
       </div>
 
+
+
     </div>
 
-  </section><!-- /Menu Section -->
+  </section><!-- /Products Section -->
 
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="testimonials section light-background">
+
+<!-- Juice Benefits / Fun Facts Section -->
+<section id="juice-benefits" class="juice-benefits section-bg py-5">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title text-center mb-5">
+      <h2>Juice Benefits & Fun Facts</h2>
+      <p>Discover the amazing benefits of our fresh juices</p>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-lg-4 col-md-6">
+        <div class="benefit-item p-4 rounded shadow-sm bg-white text-center">
+          <div class="highlight-item mb-3" style="font-size: 2rem; color: #eb5f2d;">
+            <i class="bi bi-circle"></i>
+          </div>
+          <h4>Mango Smoothie</h4>
+          <p>Rich in Vitamin C & Antioxidants, boosts immunity and energy.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="benefit-item p-4 rounded shadow-sm bg-white text-center">
+           <div class="highlight-item mb-3" style="font-size: 2rem; color: #eb5f2d;">
+            <i class="bi bi-circle"></i>
+          </div>
+          <h4>King Coconut Juice</h4>
+          <p>Naturally hydrating, packed with electrolytes for active days.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="benefit-item p-4 rounded shadow-sm bg-white text-center">
+          <div class="highlight-item mb-3" style="font-size: 2rem; color: #eb5f2d;">
+            <i class="bi bi-circle"></i>
+          </div>
+          <h4>Berry Blast Smoothie</h4>
+          <p>Loaded with antioxidants, supports heart health and skin glow.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<style>
+.benefit-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.benefit-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+.benefit-item .icon img {
+  transition: transform 0.3s ease;
+}
+.benefit-item:hover .icon img {
+  transform: scale(1.2);
+}
+</style>
+
+
+
+ <!-- Juice Gallery / Featured Menu Section -->
+<section id="juice-gallery" class="juice-gallery section py-5">
+  <div class="container" data-aos="fade-up">
 
     <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Testimonials</h2>
-      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-    </div><!-- End Section Title -->
-
-    <div class="container">
-
-      <div class="testimonial-grid">
-
-        <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="100">
-          <div class="testimonial-card">
-            <div class="testimonial-header">
-              <div class="testimonial-image">
-                <img src="assets/img/person/person-f-5.webp" class="img-fluid" alt="Testimonial 1">
-              </div>
-              <div class="testimonial-meta">
-                <h3>Sophia Martinez</h3>
-                <h4>Creative Director</h4>
-                <div class="company-logo">
-                  <i class="bi bi-building"></i>
-                </div>
-              </div>
-            </div>
-            <div class="testimonial-body">
-              <i class="bi bi-chat-quote-fill quote-icon"></i>
-              <p>Leveraging cutting-edge design principles to create immersive brand experiences that resonate with
-                modern audiences.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-item featured" data-aos="zoom-in" data-aos-delay="200">
-          <div class="testimonial-card">
-            <div class="testimonial-header">
-              <div class="testimonial-image">
-                <img src="assets/img/person/person-m-5.webp" class="img-fluid" alt="Testimonial 2">
-              </div>
-              <div class="testimonial-meta">
-                <h3>Alexander Wright</h3>
-                <h4>CEO &amp; Founder</h4>
-                <div class="company-logo">
-                  <i class="bi bi-buildings"></i>
-                </div>
-              </div>
-            </div>
-            <div class="testimonial-body">
-              <i class="bi bi-chat-quote-fill quote-icon"></i>
-              <p>Revolutionary solutions have transformed our business landscape, driving unprecedented growth and
-                market leadership position.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="300">
-          <div class="testimonial-card">
-            <div class="testimonial-header">
-              <div class="testimonial-image">
-                <img src="assets/img/person/person-f-6.webp" class="img-fluid" alt="Testimonial 3">
-              </div>
-              <div class="testimonial-meta">
-                <h3>Isabella Kim</h3>
-                <h4>Product Strategist</h4>
-                <div class="company-logo">
-                  <i class="bi bi-building-check"></i>
-                </div>
-              </div>
-            </div>
-            <div class="testimonial-body">
-              <i class="bi bi-chat-quote-fill quote-icon"></i>
-              <p>Strategic implementation of innovative technologies has elevated our product development and market
-                penetration.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="400">
-          <div class="testimonial-card">
-            <div class="testimonial-header">
-              <div class="testimonial-image">
-                <img src="assets/img/person/person-m-6.webp" class="img-fluid" alt="Testimonial 4">
-              </div>
-              <div class="testimonial-meta">
-                <h3>James Cooper</h3>
-                <h4>Tech Lead</h4>
-                <div class="company-logo">
-                  <i class="bi bi-building-gear"></i>
-                </div>
-              </div>
-            </div>
-            <div class="testimonial-body">
-              <i class="bi bi-chat-quote-fill quote-icon"></i>
-              <p>Exceptional technical expertise and innovative solutions have streamlined our development processes
-                significantly.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
+    <div class="section-title text-center mb-5">
+      <h2>Our Fresh Juices</h2>
+      <p>Bright, colorful, and full of flavor – pick your favorite!</p>
     </div>
 
-  </section><!-- /Testimonials Section -->
+    <!-- Juice Grid -->
+    <div class="row g-4">
 
-  <!-- Chefs Section -->
-  <section id="chefs" class="chefs section">
-
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Chefs</h2>
-      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-    </div><!-- End Section Title -->
-
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-      <div class="main-chef-section" data-aos="fade-up" data-aos-delay="200">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="chef-content">
-              <div class="chef-badge">
-                <i class="bi bi-award"></i>
-                <span>Executive Chef</span>
-              </div>
-              <h2>Eliot Johnson</h2>
-              <div class="experience-years">
-                <span class="number">15+</span>
-                <span class="text">Years of Excellence</span>
-              </div>
-              <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Mauris viverra
-                veniam sit amet lacus cursus, vel blandit libero tempus. Nulla facilisi morbi tempus iaculis urna id
-                volutpat lacus laoreet non curabitur gravida.</p>
-              <div class="achievements">
-                <div class="achievement-item">
-                  <i class="bi bi-trophy-fill"></i>
-                  <span>Culinary Excellence Award 2023</span>
-                </div>
-                <div class="achievement-item">
-                  <i class="bi bi-star-fill"></i>
-                  <span>Michelin Featured Restaurant</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="chef-image-container" data-aos="zoom-in" data-aos-delay="300">
-              <div class="image-frame">
-                <img src="assets/img/restaurant/chef-8.webp" class="img-fluid" alt="Executive Chef">
-                <div class="signature-overlay">
-                  <img src="assets/img/misc/signature-1.webp" alt="Chef Signature">
-                </div>
-              </div>
-            </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="juice-item position-relative overflow-hidden rounded" data-aos="fade-up" data-aos-delay="100">
+          <img src="assets/img/juices/mango-juice.jpg" class="img-fluid" alt="Mango Juice">
+          <div class="juice-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white" style="background: rgba(0,0,0,0.4); opacity: 0; transition: opacity 0.3s;">
+            <h4>Mango Delight</h4>
+            <p>Sweet & tangy, rich in Vitamin C</p>
           </div>
         </div>
       </div>
 
-      <div class="team-grid" data-aos="fade-up" data-aos-delay="400">
-        <div class="row g-4">
-          <div class="col-lg-3 col-md-6">
-            <div class="team-member" data-aos="flip-left" data-aos-delay="100">
-              <div class="member-photo">
-                <img src="assets/img/restaurant/chef-5.webp" class="img-fluid" alt="Team Member">
-                <div class="overlay">
-                  <div class="social-icons">
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Elena Vasquez</h4>
-                <span class="position">Head Pastry Chef</span>
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur adipiscing elit.</p>
-              </div>
-            </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="juice-item position-relative overflow-hidden rounded" data-aos="fade-up" data-aos-delay="200">
+          <img src="assets/img/juices/berry-blast.jpg" class="img-fluid" alt="Berry Blast">
+          <div class="juice-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white" style="background: rgba(0,0,0,0.4); opacity: 0; transition: opacity 0.3s;">
+            <h4>Berry Blast</h4>
+            <p>Vibrant mix of strawberries, blueberries & raspberries</p>
           </div>
+        </div>
+      </div>
 
-          <div class="col-lg-3 col-md-6">
-            <div class="team-member" data-aos="flip-left" data-aos-delay="150">
-              <div class="member-photo">
-                <img src="assets/img/restaurant/chef-9.webp" class="img-fluid" alt="Team Member">
-                <div class="overlay">
-                  <div class="social-icons">
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>David Thompson</h4>
-                <span class="position">Sous Chef</span>
-                <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-              </div>
-            </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="juice-item position-relative overflow-hidden rounded" data-aos="fade-up" data-aos-delay="300">
+          <img src="assets/img/juices/king-coconut.jpg" class="img-fluid" alt="King Coconut Juice">
+          <div class="juice-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white" style="background: rgba(0,0,0,0.4); opacity: 0; transition: opacity 0.3s;">
+            <h4>King Coconut</h4>
+            <p>Hydrating & refreshing, naturally packed with electrolytes</p>
           </div>
+        </div>
+      </div>
 
-          <div class="col-lg-3 col-md-6">
-            <div class="team-member" data-aos="flip-left" data-aos-delay="200">
-              <div class="member-photo">
-                <img src="assets/img/restaurant/chef-2.webp" class="img-fluid" alt="Team Member">
-                <div class="overlay">
-                  <div class="social-icons">
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Maria Santos</h4>
-                <span class="position">Kitchen Manager</span>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
-              </div>
-            </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="juice-item position-relative overflow-hidden rounded" data-aos="fade-up" data-aos-delay="400">
+          <img src="assets/img/juices/citrus-zing.jpg" class="img-fluid" alt="Citrus Zing">
+          <div class="juice-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white" style="background: rgba(0,0,0,0.4); opacity: 0; transition: opacity 0.3s;">
+            <h4>Citrus Zing</h4>
+            <p>Orange, lemon & lime for a zesty refreshment</p>
           </div>
+        </div>
+      </div>
 
-          <div class="col-lg-3 col-md-6">
-            <div class="team-member" data-aos="flip-left" data-aos-delay="250">
-              <div class="member-photo">
-                <img src="assets/img/restaurant/chef-4.webp" class="img-fluid" alt="Team Member">
-                <div class="overlay">
-                  <div class="social-icons">
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Roberto Kim</h4>
-                <span class="position">Wine Sommelier</span>
-                <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.</p>
-              </div>
-            </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="juice-item position-relative overflow-hidden rounded" data-aos="fade-up" data-aos-delay="500">
+          <img src="assets/img/juices/faluda.jpg" class="img-fluid" alt="Faluda">
+          <div class="juice-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white" style="background: rgba(0,0,0,0.4); opacity: 0; transition: opacity 0.3s;">
+            <h4>Faluda</h4>
+            <p>Rose syrup, basil seeds & milk for a creamy delight</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="juice-item position-relative overflow-hidden rounded" data-aos="fade-up" data-aos-delay="600">
+          <img src="assets/img/juices/wattalapam.jpg" class="img-fluid" alt="Wattalapam Smoothie">
+          <div class="juice-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white" style="background: rgba(0,0,0,0.4); opacity: 0; transition: opacity 0.3s;">
+            <h4>Wattalapam Smoothie</h4>
+            <p>Coconut custard smoothie, energy boosting & delicious</p>
           </div>
         </div>
       </div>
 
     </div>
 
-  </section><!-- /Chefs Section -->
+  </div>
+</section>
+
+<style>
+.juice-item img {
+  transition: transform 0.3s ease;
+}
+.juice-item:hover img {
+  transform: scale(1.1);
+}
+.juice-item:hover .juice-overlay {
+  opacity: 1;
+}
+.juice-overlay h4 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.juice-overlay p {
+  font-size: 0.9rem;
+}
+</style>
+
 
   <!-- Book A Table Section -->
   <section id="book-a-table" class="book-a-table section">
