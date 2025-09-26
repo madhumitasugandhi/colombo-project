@@ -8,7 +8,7 @@
           <a href="/" class="logo d-flex align-items-center me-auto me-xl-0">
             <img src="assets/img/logo.png" alt="Colombo Product Pvt Ltd Logo" class="img-fluid"
               style="max-height: 60px; max-width: 60px;" />
-            <h1 class="sitename">Colombo Product</h1>
+            <h1 class="sitename">Colombo Food Product</h1>
           </a>
           <p class="mb-4">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Donec
             velit neque auctor sit amet aliquam vel ullamcorper sit amet ligula.</p>
