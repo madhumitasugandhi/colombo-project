@@ -231,7 +231,7 @@
             <div class="col-lg-6">
               <div class="menu-item">
                 <div class="menu-item-image">
-                  <img src="assets/img/products/juice-1.jpg" class="img-fluid" alt="Mango Juice">
+                  <img src={{"assets/img/products/juice-1.jpg"}} class="img-fluid" alt="Mango Juice">
                   <div class="special-badge">Bestseller</div>
                 </div>
                 <div class="menu-item-content">
@@ -617,8 +617,6 @@
 }
 </style>
 
-
-
  <!-- Juice Gallery / Featured Menu Section -->
 <section id="juice-gallery" class="juice-gallery section py-5">
   <div class="container" data-aos="fade-up">
@@ -634,7 +632,7 @@
 
       <div class="col-lg-4 col-md-6">
         <div class="juice-item position-relative overflow-hidden rounded" data-aos="fade-up" data-aos-delay="100">
-          <img src="assets/img/juices/mango-juice.jpg" class="img-fluid" alt="Mango Juice">
+          <img src={{"assets/img/products/juice-1.jpg"}} class="img-fluid" alt="Mango Juice">
           <div class="juice-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white" style="background: rgba(0,0,0,0.4); opacity: 0; transition: opacity 0.3s;">
             <h4>Mango Delight</h4>
             <p>Sweet & tangy, rich in Vitamin C</p>
@@ -644,7 +642,7 @@
 
       <div class="col-lg-4 col-md-6">
         <div class="juice-item position-relative overflow-hidden rounded" data-aos="fade-up" data-aos-delay="200">
-          <img src="assets/img/juices/berry-blast.jpg" class="img-fluid" alt="Berry Blast">
+          <img src={{"assets/img/products/premium-2.jpg"}} class="img-fluid" alt="Berry Blast">
           <div class="juice-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white" style="background: rgba(0,0,0,0.4); opacity: 0; transition: opacity 0.3s;">
             <h4>Berry Blast</h4>
             <p>Vibrant mix of strawberries, blueberries & raspberries</p>
@@ -654,7 +652,7 @@
 
       <div class="col-lg-4 col-md-6">
         <div class="juice-item position-relative overflow-hidden rounded" data-aos="fade-up" data-aos-delay="300">
-          <img src="assets/img/juices/king-coconut.jpg" class="img-fluid" alt="King Coconut Juice">
+          <img src={{"assets/img/products/seasonal-1.jpg"}} class="img-fluid" alt="King Coconut Juice">
           <div class="juice-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white" style="background: rgba(0,0,0,0.4); opacity: 0; transition: opacity 0.3s;">
             <h4>King Coconut</h4>
             <p>Hydrating & refreshing, naturally packed with electrolytes</p>
@@ -664,7 +662,7 @@
 
       <div class="col-lg-4 col-md-6">
         <div class="juice-item position-relative overflow-hidden rounded" data-aos="fade-up" data-aos-delay="400">
-          <img src="assets/img/juices/citrus-zing.jpg" class="img-fluid" alt="Citrus Zing">
+          <img src={{"assets/img/products/premium-4.jpg"}} class="img-fluid" alt="Citrus Zing">
           <div class="juice-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white" style="background: rgba(0,0,0,0.4); opacity: 0; transition: opacity 0.3s;">
             <h4>Citrus Zing</h4>
             <p>Orange, lemon & lime for a zesty refreshment</p>
@@ -674,7 +672,7 @@
 
       <div class="col-lg-4 col-md-6">
         <div class="juice-item position-relative overflow-hidden rounded" data-aos="fade-up" data-aos-delay="500">
-          <img src="assets/img/juices/faluda.jpg" class="img-fluid" alt="Faluda">
+          <img src={{"assets/img/products/premium-3.jpg"}} class="img-fluid" alt="Faluda">
           <div class="juice-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white" style="background: rgba(0,0,0,0.4); opacity: 0; transition: opacity 0.3s;">
             <h4>Faluda</h4>
             <p>Rose syrup, basil seeds & milk for a creamy delight</p>
@@ -684,7 +682,7 @@
 
       <div class="col-lg-4 col-md-6">
         <div class="juice-item position-relative overflow-hidden rounded" data-aos="fade-up" data-aos-delay="600">
-          <img src="assets/img/juices/wattalapam.jpg" class="img-fluid" alt="Wattalapam Smoothie">
+          <img src={{"assets/img/products/seasonal-4.jpg"}} class="img-fluid" alt="Wattalapam Smoothie">
           <div class="juice-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white" style="background: rgba(0,0,0,0.4); opacity: 0; transition: opacity 0.3s;">
             <h4>Wattalapam Smoothie</h4>
             <p>Coconut custard smoothie, energy boosting & delicious</p>
@@ -715,146 +713,6 @@
   font-size: 0.9rem;
 }
 </style>
-
-
-  <!-- Book A Table Section -->
-  <section id="book-a-table" class="book-a-table section">
-
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-      <div class="row g-0">
-        <div class="col-lg-6 reservation-form-col" data-aos="fade-right" data-aos-delay="200">
-          <div class="reservation-form-container">
-            <div class="form-header content">
-              <span class="subtitle">Make a Reservation</span>
-              <h3>Reserve Your Table Today</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget eros vitae magna eleifend lacinia a
-                eget nisl.</p>
-            </div>
-
-            <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
-              <div class="row g-3">
-                <div class="col-12 form-group">
-                  <label for="name">Full Name</label>
-                  <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-                <div class="col-12 form-group">
-                  <label for="phone">Phone Number</label>
-                  <input type="text" id="phone" class="form-control" name="phone" placeholder="Your Phone" required="">
-                </div>
-                <div class="col-12 form-group">
-                  <label for="email">Email Address</label>
-                  <input type="email" id="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-                <div class="col-12 form-group">
-                  <label for="people">Number of People</label>
-                  <select name="people" id="people" class="form-select" required="">
-                    <option value="">Select guests</option>
-                    <option value="1">1 Person</option>
-                    <option value="2">2 People</option>
-                    <option value="3">3 People</option>
-                    <option value="4">4 People</option>
-                    <option value="5">5 People</option>
-                    <option value="6">6+ People</option>
-                  </select>
-                </div>
-                <div class="col-12 form-group">
-                  <label for="date">Reservation Date</label>
-                  <input type="date" id="date" name="date" class="form-control" required="">
-                </div>
-                <div class="col-12 form-group">
-                  <label for="time">Reservation Time</label>
-                  <input type="time" id="time" class="form-control" name="time" required="">
-                </div>
-
-                <div class="col-12 form-group">
-                  <label for="message">Special Requests</label>
-                  <textarea id="message" class="form-control" name="message" rows="2"
-                    placeholder="Allergies, special occasions, seating preferences"></textarea>
-                </div>
-              </div>
-
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm
-                  your reservation. Thank you!</div>
-              </div>
-
-              <div class="text-center">
-                <button type="submit" class="btn-book-table">Confirm Reservation</button>
-              </div>
-            </form>
-          </div>
-        </div>
-
-        <div class="col-lg-6 info-col" data-aos="fade-left" data-aos-delay="300">
-          <div class="restaurant-info">
-            <div class="info-image">
-              <img src="assets/img/restaurant/showcase-4.webp" alt="Restaurant interior" class="img-fluid">
-            </div>
-
-            <div class="info-content content">
-              <div class="restaurant-contact">
-                <h4>Restaurant Information</h4>
-
-                <div class="info-item" data-aos="fade-up" data-aos-delay="100">
-                  <div class="icon-box">
-                    <i class="bi bi-clock"></i>
-                  </div>
-                  <div class="info-text">
-                    <h5>Opening Hours</h5>
-                    <p>Mon - Fri: 11:00 AM - 11:00 PM<br>
-                      Sat - Sun: 10:00 AM - 12:00 AM</p>
-                  </div>
-                </div>
-
-                <div class="info-item" data-aos="fade-up" data-aos-delay="200">
-                  <div class="icon-box">
-                    <i class="bi bi-geo-alt"></i>
-                  </div>
-                  <div class="info-text">
-                    <h5>Our Location</h5>
-                    <p>5625 Riverside Avenue<br>Newport, RI 02840</p>
-                  </div>
-                </div>
-
-                <div class="info-item" data-aos="fade-up" data-aos-delay="300">
-                  <div class="icon-box">
-                    <i class="bi bi-telephone"></i>
-                  </div>
-                  <div class="info-text">
-                    <h5>Reservations</h5>
-                    <p>+1 (401) 555-8792</p>
-                  </div>
-                </div>
-
-                <div class="info-item" data-aos="fade-up" data-aos-delay="400">
-                  <div class="icon-box">
-                    <i class="bi bi-envelope"></i>
-                  </div>
-                  <div class="info-text">
-                    <h5>Email Us</h5>
-                    <p>reservations@example.com</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="reservation-cta" data-aos="fade-up" data-aos-delay="500">
-                <h5>Prefer to call?</h5>
-                <a href="tel:+14015558792" class="phone-button">
-                  <i class="bi bi-telephone-fill"></i>
-                  Call for Reservations
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  </section><!-- /Book A Table Section -->
 
   <!-- Location Section -->
   <section id="location" class="location section">
@@ -960,404 +818,234 @@
 
   </section><!-- /Location Section -->
 
-  <!-- Events Section -->
-  <section id="events" class="events section">
+  <!-- Beverages Events Section -->
+<section id="events" class="events section">
 
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-      <div class="row align-items-center mb-5">
-        <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
-          <div class="event-hero-content">
-            <h2>Exceptional Events &amp; Private Dining</h2>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-              rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
-            <div class="event-stats">
-              <div class="stat-item">
-                <span class="stat-number">500+</span>
-                <span class="stat-label">Events Hosted</span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-number">200</span>
-                <span class="stat-label">Max Capacity</span>
-              </div>
+    <!-- Hero -->
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+        <div class="event-hero-content">
+          <h2>Refreshing Beverage Experiences</h2>
+          <p>From tropical juice tastings to smoothie workshops, we bring you unique beverage events that celebrate freshness, flavor, and fun.</p>
+          <div class="event-stats">
+            <div class="stat-item">
+              <span class="stat-number">300+</span>
+              <span class="stat-label">Juice Tastings</span>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
-          <div class="event-hero-image">
-            <img src="assets/img/restaurant/event-2.webp" alt="Event Space" class="img-fluid">
-            <div class="floating-card" data-aos="zoom-in" data-aos-delay="300">
-              <i class="bi bi-calendar-check"></i>
-              <span>Book Your Event Today</span>
+            <div class="stat-item">
+              <span class="stat-number">50+</span>
+              <span class="stat-label">Seasonal Launches</span>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="event-packages" data-aos="fade-up" data-aos-delay="200">
-        <div class="section-header text-center mb-5">
-          <h3>Choose Your Perfect Package</h3>
-          <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam</p>
-        </div>
-
-        <div class="row g-4">
-          <div class="col-lg-4 col-md-6" data-aos="flip-up" data-aos-delay="250">
-            <div class="package-card premium">
-              <div class="package-header">
-                <div class="package-icon">
-                  <i class="bi bi-gem"></i>
-                </div>
-                <h4>Premium Package</h4>
-                <div class="package-price">
-                  <span class="price">$129</span>
-                  <span class="per">per person</span>
-                </div>
-              </div>
-              <div class="package-features">
-                <ul>
-                  <li><i class="bi bi-check-circle"></i> 5-course gourmet menu</li>
-                  <li><i class="bi bi-check-circle"></i> Premium wine selection</li>
-                  <li><i class="bi bi-check-circle"></i> Dedicated event coordinator</li>
-                  <li><i class="bi bi-check-circle"></i> Custom table arrangements</li>
-                  <li><i class="bi bi-check-circle"></i> Professional photography</li>
-                </ul>
-              </div>
-              <div class="package-capacity">30-80 guests</div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="flip-up" data-aos-delay="300">
-            <div class="package-card standard featured">
-              <div class="popular-badge">Most Popular</div>
-              <div class="package-header">
-                <div class="package-icon">
-                  <i class="bi bi-star"></i>
-                </div>
-                <h4>Standard Package</h4>
-                <div class="package-price">
-                  <span class="price">$89</span>
-                  <span class="per">per person</span>
-                </div>
-              </div>
-              <div class="package-features">
-                <ul>
-                  <li><i class="bi bi-check-circle"></i> 3-course dinner menu</li>
-                  <li><i class="bi bi-check-circle"></i> Welcome cocktail hour</li>
-                  <li><i class="bi bi-check-circle"></i> Event planning assistance</li>
-                  <li><i class="bi bi-check-circle"></i> Audio/visual equipment</li>
-                  <li><i class="bi bi-check-circle"></i> Complimentary parking</li>
-                </ul>
-              </div>
-              <div class="package-capacity">20-120 guests</div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="flip-up" data-aos-delay="350">
-            <div class="package-card essentials">
-              <div class="package-header">
-                <div class="package-icon">
-                  <i class="bi bi-heart"></i>
-                </div>
-                <h4>Essentials Package</h4>
-                <div class="package-price">
-                  <span class="price">$59</span>
-                  <span class="per">per person</span>
-                </div>
-              </div>
-              <div class="package-features">
-                <ul>
-                  <li><i class="bi bi-check-circle"></i> Buffet style dinner</li>
-                  <li><i class="bi bi-check-circle"></i> House wine &amp; beer</li>
-                  <li><i class="bi bi-check-circle"></i> Basic decorations</li>
-                  <li><i class="bi bi-check-circle"></i> Standard seating</li>
-                  <li><i class="bi bi-check-circle"></i> 4-hour venue rental</li>
-                </ul>
-              </div>
-              <div class="package-capacity">15-60 guests</div>
-            </div>
+      <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+        <div class="event-hero-image">
+          <img src="{{ asset('assets/img/products/event-hero.jpg') }}" alt="Beverage Event" class="img-fluid">
+          <div class="floating-card" data-aos="zoom-in" data-aos-delay="300">
+            <i class="bi bi-cup-straw"></i>
+            <span>Join Our Next Tasting</span>
           </div>
         </div>
       </div>
-
-      <div class="event-gallery-grid" data-aos="fade-up" data-aos-delay="200">
-        <div class="row g-3">
-          <div class="col-lg-3 col-md-6">
-            <div class="gallery-item" data-aos="zoom-out" data-aos-delay="250">
-              <img src="assets/img/restaurant/event-4.webp" alt="Corporate Event" class="img-fluid">
-              <div class="gallery-overlay">
-                <span class="gallery-label">Corporate Events</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="gallery-item main-gallery" data-aos="zoom-out" data-aos-delay="300">
-              <img src="assets/img/restaurant/event-6.webp" alt="Wedding Reception" class="img-fluid">
-              <div class="gallery-overlay">
-                <span class="gallery-label">Wedding Receptions</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="gallery-item" data-aos="zoom-out" data-aos-delay="350">
-              <img src="assets/img/restaurant/event-9.webp" alt="Birthday Party" class="img-fluid">
-              <div class="gallery-overlay">
-                <span class="gallery-label">Birthday Celebrations</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="booking-section" data-aos="fade-up" data-aos-delay="200">
-        <div class="row">
-          <div class="col-lg-6" data-aos="slide-right" data-aos-delay="250">
-            <div class="booking-info">
-              <h3>Plan Your Next Event</h3>
-              <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-                dolores eos qui ratione voluptatem sequi nesciunt.</p>
-
-              <div class="contact-methods">
-                <div class="contact-item">
-                  <div class="contact-icon">
-                    <i class="bi bi-telephone"></i>
-                  </div>
-                  <div class="contact-details">
-                    <span class="contact-label">Call Us</span>
-                    <span class="contact-value">+1 (555) 123-4567</span>
-                  </div>
-                </div>
-                <div class="contact-item">
-                  <div class="contact-icon">
-                    <i class="bi bi-envelope"></i>
-                  </div>
-                  <div class="contact-details">
-                    <span class="contact-label">Email</span>
-                    <span class="contact-value">events@example.com</span>
-                  </div>
-                </div>
-                <div class="contact-item">
-                  <div class="contact-icon">
-                    <i class="bi bi-clock"></i>
-                  </div>
-                  <div class="contact-details">
-                    <span class="contact-label">Planning Hours</span>
-                    <span class="contact-value">Mon-Fri 9AM-6PM</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="slide-left" data-aos-delay="300">
-            <div class="quick-booking-form">
-              <form action="forms/event-booking.php" method="post" class="php-email-form">
-                <h4>Quick Event Inquiry</h4>
-                <div class="row">
-                  <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                  </div>
-                  <div class="col-md-6">
-                    <input type="email" name="email" class="form-control" placeholder="Your Email" required="">
-                  </div>
-                  <div class="col-md-6">
-                    <input type="tel" name="phone" class="form-control" placeholder="Phone Number" required="">
-                  </div>
-                  <div class="col-md-6">
-                    <input type="date" name="date" class="form-control" required="">
-                  </div>
-                  <div class="col-md-6">
-                    <select name="guest_count" class="form-select" required="">
-                      <option value="">Guest Count</option>
-                      <option value="15-30">15-30 guests</option>
-                      <option value="31-60">31-60 guests</option>
-                      <option value="61-100">61-100 guests</option>
-                      <option value="100+">100+ guests</option>
-                    </select>
-                  </div>
-                  <div class="col-md-6">
-                    <select name="event_type" class="form-select" required="">
-                      <option value="">Event Type</option>
-                      <option value="wedding">Wedding</option>
-                      <option value="corporate">Corporate Event</option>
-                      <option value="birthday">Birthday Party</option>
-                      <option value="other">Other</option>
-                    </select>
-                  </div>
-                  <div class="col-12">
-                    <textarea name="message" rows="5" class="form-control"
-                      placeholder="Tell us about your event..."></textarea>
-                  </div>
-                  <div class="col-12">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your inquiry has been sent. We'll get back to you soon!</div>
-                    <button type="submit" class="btn-submit">Send Inquiry</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
 
-  </section><!-- /Events Section -->
+    <!-- Packages -->
+    <div class="event-packages" data-aos="fade-up" data-aos-delay="200">
+      <div class="section-header text-center mb-5">
+        <h3>Choose Your Beverage Experience</h3>
+        <p>Perfect for juice lovers, health enthusiasts, and anyone who enjoys a refreshing drink.</p>
+      </div>
 
-  <!-- Gallery Section -->
-  <section id="gallery" class="gallery section">
-
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Gallery</h2>
-      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-    </div><!-- End Section Title -->
-
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-      <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-        <ul class="gallery-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-food">Food</li>
-          <li data-filter=".filter-interior">Interior</li>
-          <li data-filter=".filter-events">Events</li>
-          <li data-filter=".filter-staff">Staff</li>
-        </ul><!-- End Gallery Filters -->
-
-        <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-          <!-- Food Images -->
-          <div class="col-lg-4 col-md-6 gallery-item isotope-item filter-food">
-            <div class="gallery-wrap">
-              <img src="assets/img/restaurant/starter-3.webp" class="img-fluid" alt="Appetizer Platter" loading="lazy">
-              <div class="gallery-info">
-                <h4>Gourmet Appetizer Selection</h4>
-                <p>Seasonal ingredients with artisan bread</p>
-                <div class="gallery-links">
-                  <a href="assets/img/restaurant/starter-3.webp" class="glightbox"
-                    title="Gourmet Appetizer Selection"><i class="bi bi-zoom-in"></i></a>
-                </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6" data-aos="flip-up" data-aos-delay="250">
+          <div class="package-card premium">
+            <div class="package-header">
+              <div class="package-icon">
+                <i class="bi bi-gem"></i>
+              </div>
+              <h4>Signature Tasting</h4>
+              <div class="package-price">
+                <span class="price">$39</span>
+                <span class="per">per person</span>
               </div>
             </div>
-          </div><!-- End Gallery Item -->
+            <div class="package-features">
+              <ul>
+                <li><i class="bi bi-check-circle"></i> 8 exotic juices</li>
+                <li><i class="bi bi-check-circle"></i> Seasonal mocktails</li>
+                <li><i class="bi bi-check-circle"></i> Pairing with snacks</li>
+                <li><i class="bi bi-check-circle"></i> Take-home recipe cards</li>
+              </ul>
+            </div>
+            <div class="package-capacity">10-40 guests</div>
+          </div>
+        </div>
 
-          <div class="col-lg-4 col-md-6 gallery-item isotope-item filter-interior">
-            <div class="gallery-wrap">
-              <img src="assets/img/restaurant/showcase-5.webp" class="img-fluid" alt="Restaurant Interior"
-                loading="lazy">
-              <div class="gallery-info">
-                <h4>Main Dining Area</h4>
-                <p>Elegant atmosphere with natural lighting</p>
-                <div class="gallery-links">
-                  <a href="assets/img/restaurant/showcase-5.webp" class="glightbox" title="Main Dining Area"><i
-                      class="bi bi-zoom-in"></i></a>
-                </div>
+        <div class="col-lg-4 col-md-6" data-aos="flip-up" data-aos-delay="300">
+          <div class="package-card standard featured">
+            <div class="popular-badge">Most Loved</div>
+            <div class="package-header">
+              <div class="package-icon">
+                <i class="bi bi-star"></i>
+              </div>
+              <h4>Smoothie Workshop</h4>
+              <div class="package-price">
+                <span class="price">$29</span>
+                <span class="per">per person</span>
               </div>
             </div>
-          </div><!-- End Gallery Item -->
+            <div class="package-features">
+              <ul>
+                <li><i class="bi bi-check-circle"></i> Hands-on smoothie making</li>
+                <li><i class="bi bi-check-circle"></i> Superfood boosters</li>
+                <li><i class="bi bi-check-circle"></i> Nutrition tips</li>
+                <li><i class="bi bi-check-circle"></i> Free reusable cup</li>
+              </ul>
+            </div>
+            <div class="package-capacity">15-60 guests</div>
+          </div>
+        </div>
 
-          <div class="col-lg-4 col-md-6 gallery-item isotope-item filter-food">
-            <div class="gallery-wrap">
-              <img src="assets/img/restaurant/main-7.webp" class="img-fluid" alt="Main Course" loading="lazy">
-              <div class="gallery-info">
-                <h4>Signature Main Course</h4>
-                <p>Chef's special with seasonal vegetables</p>
-                <div class="gallery-links">
-                  <a href="assets/img/restaurant/main-7.webp" class="glightbox" title="Signature Main Course"><i
-                      class="bi bi-zoom-in"></i></a>
-                </div>
+        <div class="col-lg-4 col-md-6" data-aos="flip-up" data-aos-delay="350">
+          <div class="package-card essentials">
+            <div class="package-header">
+              <div class="package-icon">
+                <i class="bi bi-heart"></i>
+              </div>
+              <h4>Juice Bar Pop-up</h4>
+              <div class="package-price">
+                <span class="price">$19</span>
+                <span class="per">per person</span>
               </div>
             </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-4 col-md-6 gallery-item isotope-item filter-events">
-            <div class="gallery-wrap">
-              <img src="assets/img/restaurant/event-4.webp" class="img-fluid" alt="Special Event" loading="lazy">
-              <div class="gallery-info">
-                <h4>Wine Tasting Evening</h4>
-                <p>Monthly culinary experience with paired wines</p>
-                <div class="gallery-links">
-                  <a href="assets/img/restaurant/event-4.webp" class="glightbox" title="Wine Tasting Evening"><i
-                      class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
+            <div class="package-features">
+              <ul>
+                <li><i class="bi bi-check-circle"></i> 4 fresh juice options</li>
+                <li><i class="bi bi-check-circle"></i> DIY garnish station</li>
+                <li><i class="bi bi-check-circle"></i> Fresh fruit platters</li>
+                <li><i class="bi bi-check-circle"></i> Eco-friendly cups</li>
+              </ul>
             </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-4 col-md-6 gallery-item isotope-item filter-staff">
-            <div class="gallery-wrap">
-              <img src="assets/img/restaurant/chef-6.webp" class="img-fluid" alt="Chef Portrait" loading="lazy">
-              <div class="gallery-info">
-                <h4>Executive Chef</h4>
-                <p>Creating culinary masterpieces since 2010</p>
-                <div class="gallery-links">
-                  <a href="assets/img/restaurant/chef-6.webp" class="glightbox" title="Executive Chef"><i
-                      class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-4 col-md-6 gallery-item isotope-item filter-interior">
-            <div class="gallery-wrap">
-              <img src="assets/img/restaurant/showcase-2.webp" class="img-fluid" alt="Private Dining Room"
-                loading="lazy">
-              <div class="gallery-info">
-                <h4>Private Dining Space</h4>
-                <p>Intimate setting for special occasions</p>
-                <div class="gallery-links">
-                  <a href="assets/img/restaurant/showcase-2.webp" class="glightbox" title="Private Dining Space"><i
-                      class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-4 col-md-6 gallery-item isotope-item filter-food">
-            <div class="gallery-wrap">
-              <img src="assets/img/restaurant/dessert-5.webp" class="img-fluid" alt="Dessert Display" loading="lazy">
-              <div class="gallery-info">
-                <h4>Artisanal Dessert Plate</h4>
-                <p>Handcrafted sweet delicacies</p>
-                <div class="gallery-links">
-                  <a href="assets/img/restaurant/dessert-5.webp" class="glightbox" title="Artisanal Dessert Plate"><i
-                      class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-4 col-md-6 gallery-item isotope-item filter-events">
-            <div class="gallery-wrap">
-              <img src="assets/img/restaurant/event-8.webp" class="img-fluid" alt="Celebration Event" loading="lazy">
-              <div class="gallery-info">
-                <h4>Anniversary Celebration</h4>
-                <p>Custom events tailored to your special moments</p>
-                <div class="gallery-links">
-                  <a href="assets/img/restaurant/event-8.webp" class="glightbox" title="Anniversary Celebration"><i
-                      class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-4 col-md-6 gallery-item isotope-item filter-staff">
-            <div class="gallery-wrap">
-              <img src="assets/img/restaurant/chef-3.webp" class="img-fluid" alt="Service Staff" loading="lazy">
-              <div class="gallery-info">
-                <h4>Our Culinary Team</h4>
-                <p>Passionate culinary artists at work</p>
-                <div class="gallery-links">
-                  <a href="assets/img/restaurant/chef-3.webp" class="glightbox" title="Our Culinary Team"><i
-                      class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-        </div><!-- End Gallery Container -->
-      </div><!-- End Isotope Layout -->
-
+            <div class="package-capacity">20-100 guests</div>
+          </div>
+        </div>
+      </div>
     </div>
 
-  </section><!-- /Gallery Section -->
+    <!-- Gallery -->
+    <div class="event-gallery-grid" data-aos="fade-up" data-aos-delay="200">
+      <div class="row g-3">
+        <div class="col-lg-3 col-md-6">
+          <div class="gallery-item" data-aos="zoom-out" data-aos-delay="250">
+            <img src="{{ asset('assets/img/products/juice-2.jpg') }}" alt="Juice Tasting" class="img-fluid">
+            <div class="gallery-overlay">
+              <span class="gallery-label">Juice Tastings</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="gallery-item main-gallery" data-aos="zoom-out" data-aos-delay="300">
+            <img src="{{ asset('assets/img/products/smoothie-3.jpg') }}" alt="Smoothie Workshop" class="img-fluid">
+            <div class="gallery-overlay">
+              <span class="gallery-label">Smoothie Workshops</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="gallery-item" data-aos="zoom-out" data-aos-delay="350">
+            <img src="{{ asset('assets/img/products/seasonal-2.jpg') }}" alt="Pop-up Juice Bar" class="img-fluid">
+            <div class="gallery-overlay">
+              <span class="gallery-label">Pop-up Juice Bars</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Booking -->
+    <div class="booking-section" data-aos="fade-up" data-aos-delay="200">
+      <div class="row">
+        <div class="col-lg-6" data-aos="slide-right" data-aos-delay="250">
+          <div class="booking-info">
+            <h3>Book Your Beverage Experience</h3>
+            <p>Whether it’s a corporate event, family gathering, or just a fun day with friends — we’ll bring refreshing drinks to your celebration.</p>
+
+            <div class="contact-methods">
+              <div class="contact-item">
+                <div class="contact-icon"><i class="bi bi-telephone"></i></div>
+                <div class="contact-details">
+                  <span class="contact-label">Call Us</span>
+                  <span class="contact-value">+1 (555) 987-6543</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon"><i class="bi bi-envelope"></i></div>
+                <div class="contact-details">
+                  <span class="contact-label">Email</span>
+                  <span class="contact-value">drinks@example.com</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon"><i class="bi bi-clock"></i></div>
+                <div class="contact-details">
+                  <span class="contact-label">Available</span>
+                  <span class="contact-value">Mon-Sat 10AM-8PM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Booking Form -->
+        <div class="col-lg-6" data-aos="slide-left" data-aos-delay="300">
+          <div class="quick-booking-form">
+            <form action="forms/event-booking.php" method="post" class="php-email-form">
+              <h4>Quick Event Inquiry</h4>
+              <div class="row">
+                <div class="col-md-6"><input type="text" name="name" class="form-control" placeholder="Your Name" required></div>
+                <div class="col-md-6"><input type="email" name="email" class="form-control" placeholder="Your Email" required></div>
+                <div class="col-md-6"><input type="tel" name="phone" class="form-control" placeholder="Phone Number" required></div>
+                <div class="col-md-6"><input type="date" name="date" class="form-control" required></div>
+                <div class="col-md-6">
+                  <select name="guest_count" class="form-select" required>
+                    <option value="">Guest Count</option>
+                    <option value="10-30">10-30 guests</option>
+                    <option value="31-60">31-60 guests</option>
+                    <option value="61-100">61-100 guests</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <select name="event_type" class="form-select" required>
+                    <option value="">Event Type</option>
+                    <option value="tasting">Juice Tasting</option>
+                    <option value="workshop">Smoothie Workshop</option>
+                    <option value="popup">Juice Bar Pop-up</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <textarea name="message" rows="5" class="form-control" placeholder="Tell us about your event..."></textarea>
+                </div>
+                <div class="col-12">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your inquiry has been sent. We'll get back to you soon!</div>
+                  <button type="submit" class="btn-submit">Send Inquiry</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<!-- /Beverages Events Section -->
 
   <!-- Contact Section -->
   <section id="contact" class="contact section">
@@ -1452,8 +1140,5 @@
       </div>
     </div>
   </section><!-- /Contact Section -->
-
 </main>
-
-
 @endsection
