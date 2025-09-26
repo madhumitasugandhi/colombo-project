@@ -130,7 +130,7 @@
             </div>
 
             <div class="cta-buttons mt-4">
-              <a href="#products" class="btn btn-primary">Explore Products</a>
+              <a href="#products" class="btn">Explore Products</a>
               <a href="#contact" class="btn btn-outline">Contact Us</a>
             </div>
           </div>
@@ -177,7 +177,6 @@
     </div>
 
   </section><!-- End About Section -->
-
 
   <!-- Products Section -->
   <section id="menu" class="menu section">
@@ -554,7 +553,6 @@
 
   </section><!-- /Products Section -->
 
-
 <!-- Juice Benefits / Fun Facts Section -->
 <section id="juice-benefits" class="juice-benefits section-bg py-5">
   <div class="container" data-aos="fade-up">
@@ -601,21 +599,7 @@
   </div>
 </section>
 
-<style>
-.benefit-item {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.benefit-item:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
-}
-.benefit-item .icon img {
-  transition: transform 0.3s ease;
-}
-.benefit-item:hover .icon img {
-  transform: scale(1.2);
-}
-</style>
+
 
  <!-- Juice Gallery / Featured Menu Section -->
 <section id="juice-gallery" class="juice-gallery section py-5">
@@ -695,24 +679,7 @@
   </div>
 </section>
 
-<style>
-.juice-item img {
-  transition: transform 0.3s ease;
-}
-.juice-item:hover img {
-  transform: scale(1.1);
-}
-.juice-item:hover .juice-overlay {
-  opacity: 1;
-}
-.juice-overlay h4 {
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
-.juice-overlay p {
-  font-size: 0.9rem;
-}
-</style>
+
 
   <!-- Location Section -->
   <section id="location" class="location section">
