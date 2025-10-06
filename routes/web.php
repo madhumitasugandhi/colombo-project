@@ -43,6 +43,9 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('frontend.contact');
 })->name('contact');
+Route::get('/menu', function () {
+    return view('frontend.menu');
+})->name('menu');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
