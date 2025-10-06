@@ -19,21 +19,21 @@
           <div class="info-card p-4 bg-white shadow-sm rounded">
             <i class="bi bi-geo-alt fs-2 mb-3" style="color: #ff7e5f;"></i>
             <h6 class="fw-bold">Our Address</h6>
-            <p>50/14B Jubilee Mawatha, Mattakuliya, Colombo 15</p>
+            <p>50/14B Jubilee Mawatha,<br/> Mattakuliya, Colombo 15</p>
           </div>
         </div>
         <div class="col-md-4 text-center">
           <div class="info-card p-4 bg-white shadow-sm rounded">
             <i class="bi bi-telephone fs-2 mb-3" style="color: #ff7e5f;"></i>
             <h6 class="fw-bold">Call Us</h6>
-            <p>011 2524848 / 077 2775503</p>
+            <p>011 2524848 <br/> 077 2775503</p>
           </div>
         </div>
         <div class="col-md-4 text-center">
           <div class="info-card p-4 bg-white shadow-sm rounded">
             <i class="bi bi-person fs-2 mb-3" style="color: #ff7e5f;"></i>
             <h6 class="fw-bold">Founder</h6>
-            <p>Pallegedara Sarath Kumara Bandara</p>
+            <p>Pallegedara Sarath<br/> Kumara Bandara</p>
           </div>
         </div>
       </div>
