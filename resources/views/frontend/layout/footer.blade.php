@@ -56,6 +56,7 @@
           <div class="contact-item">
             <div class="contact-icon">
               <i class="bi bi-telephone"></i>
+              
             </div>
             <div class="contact-info">
               <p>011 2524848 / 077 2775503</p>
