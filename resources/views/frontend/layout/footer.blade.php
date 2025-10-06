@@ -88,10 +88,8 @@
 
           <div class="social-links">
             <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-twitter-x"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
             <a href="#"><i class="bi bi-youtube"></i></a>
-            <a href="#"><i class="bi bi-github"></i></a>
           </div>
         </div>
       </div>
@@ -104,7 +102,7 @@
       <div class="row align-items-center">
         <div class="col-lg-6">
           <div class="copyright">
-            <p>© <span>Copyright</span> <strong class="px-1 sitename">MyWebsite</strong> <span>All Rights
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">Colombo Food Products</strong> <span>All Rights
                 Reserved</span></p>
           </div>
         </div>
@@ -119,7 +117,7 @@
             <!-- You can delete the links only if you've purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a href="#">ICEICO.PVT.LTD</a>
           </div>
         </div>
       </div>
