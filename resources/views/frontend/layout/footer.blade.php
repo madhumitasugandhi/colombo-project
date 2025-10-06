@@ -49,7 +49,7 @@
               <i class="bi bi-geo-alt"></i>
             </div>
             <div class="contact-info">
-              <p>2847 Maple Avenue<br>Los Angeles, CA 90210<br>United States</p>
+              <p>50/14B Jubilee Mawatha,<br/> Mattakuliya, Colombo 15</p>
             </div>
           </div>
 
@@ -58,7 +58,7 @@
               <i class="bi bi-telephone"></i>
             </div>
             <div class="contact-info">
-              <p>+1 (555) 987-6543</p>
+              <p>011 2524848 / 077 2775503</p>
             </div>
           </div>
 
