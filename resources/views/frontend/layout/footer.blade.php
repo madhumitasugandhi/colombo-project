@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row gy-5">
 
-      <div class="col-lg-4">
+      <div class="col-lg-6">
         <div class="footer-content">
           <a href="/" class="logo d-flex align-items-center me-auto me-xl-0">
             <img src="assets/img/logo.png" alt="Colombo Product Pvt Ltd Logo" class="img-fluid"
@@ -30,33 +30,18 @@
         </div>
       </div>
 
-      <div class="col-lg-2 col-6">
+      <div class="col-lg-2 col-6 mx-auto">
         <div class="footer-links">
           <h4>Company</h4>
           <ul>
             <li><a href="#"><i class="bi bi-chevron-right"></i> About</a></li>
-            <li><a href="#"><i class="bi bi-chevron-right"></i> Careers</a></li>
-            <li><a href="#"><i class="bi bi-chevron-right"></i> Press</a></li>
-            <li><a href="#"><i class="bi bi-chevron-right"></i> Blog</a></li>
+            <li><a href="#"><i class="bi bi-chevron-right"></i> Product</a></li>
             <li><a href="#"><i class="bi bi-chevron-right"></i> Contact</a></li>
           </ul>
         </div>
       </div>
 
-      <div class="col-lg-2 col-6">
-        <div class="footer-links">
-          <h4>Solutions</h4>
-          <ul>
-            <li><a href="#"><i class="bi bi-chevron-right"></i> Digital Strategy</a></li>
-            <li><a href="#"><i class="bi bi-chevron-right"></i> Cloud Computing</a></li>
-            <li><a href="#"><i class="bi bi-chevron-right"></i> Data Analytics</a></li>
-            <li><a href="#"><i class="bi bi-chevron-right"></i> AI Solutions</a></li>
-            <li><a href="#"><i class="bi bi-chevron-right"></i> Cybersecurity</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
+      <div class="col-lg-4 px-5">
         <div class="footer-contact">
           <h4>Get in Touch</h4>
           <div class="contact-item">
