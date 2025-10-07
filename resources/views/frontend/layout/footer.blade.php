@@ -94,7 +94,7 @@
         </div>
         <div class="col-lg-6">
           <div class="footer-bottom-links">
-            <a href="#">Privacy Policy</a>
+            <a href="{{ route('privacy.policy') }}">Privacy Policy</a>
             <a href="#">Terms of Service</a>
             <a href="#">Cookie Policy</a>
           </div>
