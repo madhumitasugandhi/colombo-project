@@ -130,8 +130,8 @@
             </div>
 
             <div class="cta-buttons mt-4">
-              <a href="#products" class="btn">Explore Products</a>
-              <a href="#contact" class="btn btn-outline">Contact Us</a>
+              <a href="/menu" class="btn">Explore Products</a>
+              <a href="/contact" class="btn btn-outline">Contact Us</a>
             </div>
           </div>
         </div>
@@ -541,7 +541,7 @@
 
       <div class="row mt-5">
         <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="300">
-          <a href="/products" class="btn btn-download">
+          <a href="/menu" class="btn btn-download">
             <i class="bi bi-grid-1x2 me-2"></i>Explore All Products
           </a>
         </div>
