@@ -21,8 +21,8 @@
             and innovative beverages to both Sri Lankan and international markets.
           </p>
           <div class="cta-buttons mt-4">
-              <a href="#products" class="btn">Explore Products</a>
-              <a href="#contact" class="btn btn-outline">Contact Us</a>
+              <a href="/menu" class="btn">Explore Products</a>
+              <a href="/contact" class="btn btn-outline">Contact Us</a>
           </div>
         </div>
         <div class="col-md-6 position-relative">
