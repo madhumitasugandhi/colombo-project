@@ -22,8 +22,8 @@
               </p>
 
               <div class="hero-actions d-flex flex-wrap gap-3 mb-4">
-                <a href="#products" class="btn btn-primary">Explore Products</a>
-                <a href="#about" class="btn btn-outline">About Us</a>
+                <a href="/menu" class="btn btn-primary">Explore Products</a>
+                <a href="/about" class="btn btn-outline">About Us</a>
               </div>
 
               <div class="hero-info d-flex flex-wrap align-items-center gap-4">
