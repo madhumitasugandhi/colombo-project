@@ -597,9 +597,7 @@
     </div>
 
   </div>
-</section>
-
-
+</section><!-- End Juice Benefits / Fun Facts Section -->
 
  <!-- Juice Gallery / Featured Menu Section -->
 <section id="juice-gallery" class="juice-gallery section py-5">
@@ -677,9 +675,7 @@
     </div>
 
   </div>
-</section>
-
-
+</section><!-- End Juice Gallery / Featured Menu Section -->
 
   <!-- Location Section -->
   <section id="location" class="location section">
