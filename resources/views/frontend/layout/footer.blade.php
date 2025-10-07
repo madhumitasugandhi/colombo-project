@@ -34,9 +34,9 @@
         <div class="footer-links">
           <h4>Company</h4>
           <ul>
-            <li><a href="#"><i class="bi bi-chevron-right"></i> About</a></li>
-            <li><a href="#"><i class="bi bi-chevron-right"></i> Product</a></li>
-            <li><a href="#"><i class="bi bi-chevron-right"></i> Contact</a></li>
+            <li><a href="/about"><i class="bi bi-chevron-right"></i> About</a></li>
+            <li><a href="/menu"><i class="bi bi-chevron-right"></i> Product</a></li>
+            <li><a href="/contact"><i class="bi bi-chevron-right"></i> Contact</a></li>
           </ul>
         </div>
       </div>
